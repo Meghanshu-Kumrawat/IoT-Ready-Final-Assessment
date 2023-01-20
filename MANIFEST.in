@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include link_bundler_app *.css
+recursive-include link_bundler_app *.csv
+recursive-include link_bundler_app *.html
+recursive-include link_bundler_app *.ico
+recursive-include link_bundler_app *.js
+recursive-include link_bundler_app *.json
+recursive-include link_bundler_app *.md
+recursive-include link_bundler_app *.png
+recursive-include link_bundler_app *.py
+recursive-include link_bundler_app *.svg
+recursive-include link_bundler_app *.txt
+recursive-exclude link_bundler_app *.pyc
