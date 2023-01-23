@@ -1,0 +1,6 @@
+<h3>List of Bundle</h3>
+<ol>
+{% for bundle in bundles %}
+    <li>{{ bundle.title }} {{ bundle.description }}, {{ bundle.urls }}</li>
+{% endfor %}
+</ol>
